@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+        integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <h1>Create You Pet Gallery &#128562;</h1>
+
+    <main>
+        <div class="initial-container">
+            <h2>Add Your First Buddy</h2>
+            <button class="add-new">Add New <i class="fa-solid fa-plus"></i></button>
+        </div>
+    </main>
+
+
+
+
+    <form class="add-pet-form">
+        <h2>Fill Out The Required details</h2>
+        <div class="form-content">
+            <div class="cancel"><i class="fa-solid fa-xmark"></i></div>
+            <div class="details">
+                <label for="name">Your Pet Name : </label>
+                <input type="text" autocomplete="off" name="name" id="name" size="30" required>
+            </div>
+            <div class="details">
+                <h3>Gender :</h3>
+                <label for="male">Male : </label>
+                <input type="radio" name="gender" value="male" id="male" required>
+                <label for="female">Female</label>
+                <input type="radio" name="gender" value="female" id="female" required>
+            </div>
+            <div class="details">
+                <label for="image">Place a image of your Pet : </label>
+                <input type="file" accept="image/*" name="image" id="image" required>
+            </div>
+
+            <div class="submissions">
+                <input type="reset" value="Reset">
+                <input type="Submit" value="Submit">
+            </div>
+        </div>
+    </form>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>

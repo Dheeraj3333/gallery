@@ -1,0 +1,7 @@
+Animal Gallery -
+Inside body just add a card Displaying message "add your first pet",
+display a button Inside it with a click event which will show a from to fill required details about the pet.
+
+use the data from the form to create a new card with the image of animal provided in the form .
+
+Display the card at the first position inside your cards container
